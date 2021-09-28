@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7d11a00f-bacb-4922-bed1-8e151db12e32</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SB.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\Apartment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\ApartmentType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\Booking.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\Contact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\Email.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\Image.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\Price.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityProviders\SBCustomSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\DateTimeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EntityCollectionExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EntityExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ListExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\OrganizationServiceExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Actions\ActionResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\ActivityPartyModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\ApartmentModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\ApartmentTypeModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\BookingModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\ContactModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\EmailModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\EmailTemplateModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\EntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\ImageModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\PriceModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\SBCustomSettingsModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Dynamics\UserModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebUtilities.cs" />
+  </ItemGroup>
+</Project>
