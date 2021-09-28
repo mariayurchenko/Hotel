@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DynamicsKey.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>SB.ApartmentType</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.1.0.88" />
+  </ItemGroup>
+  <Import Project="..\..\..\SB.Shared\SB.Shared.projitems" Label="Shared" />
+
+</Project>

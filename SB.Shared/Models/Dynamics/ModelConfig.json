@@ -1,0 +1,388 @@
+{
+  "Entities": [
+    {
+      "Fields": [
+        {
+          "DisplayName": "Last Booking",
+          "LogicalName": "sb_lastbooking",
+          "EntityLogicalName": "sb_apartment"
+        },
+        {
+          "DisplayName": "Next Booking",
+          "LogicalName": "sb_nextbooking",
+          "EntityLogicalName": "sb_apartment"
+        },
+        {
+          "DisplayName": "Current Booking",
+          "LogicalName": "sb_currentbooking",
+          "EntityLogicalName": "sb_apartment"
+        },
+        {
+          "DisplayName": "Name",
+          "LogicalName": "sb_name",
+          "EntityLogicalName": "sb_apartment"
+        },
+        {
+          "DisplayName": "Address",
+          "LogicalName": "sb_address",
+          "EntityLogicalName": "sb_apartment"
+        },
+        {
+          "DisplayName": "Type",
+          "LogicalName": "sb_apartmenttypeid",
+          "EntityLogicalName": "sb_apartment"
+        },
+        {
+          "DisplayName": "Status",
+          "LogicalName": "statecode",
+          "EntityLogicalName": "sb_apartment"
+        }
+      ],
+      "LogicalName": "sb_apartment",
+      "DisplayName": "Apartment",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_apartmentid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Name",
+          "LogicalName": "sb_name",
+          "EntityLogicalName": "sb_apartmenttype"
+        },
+        {
+          "DisplayName": "Current Price",
+          "LogicalName": "sb_currentprice",
+          "EntityLogicalName": "sb_apartmenttype"
+        },
+        {
+          "DisplayName": "Description",
+          "LogicalName": "sb_description",
+          "EntityLogicalName": "sb_apartmenttype"
+        },
+        {
+          "DisplayName": "Status",
+          "LogicalName": "statecode",
+          "EntityLogicalName": "sb_apartmenttype"
+        },
+        {
+          "DisplayName": "Main Image",
+          "LogicalName": "sb_imageid",
+          "EntityLogicalName": "sb_apartmenttype"
+        }
+      ],
+      "LogicalName": "sb_apartmenttype",
+      "DisplayName": "Apartment Type",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_apartmenttypeid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Name",
+          "LogicalName": "sb_name",
+          "EntityLogicalName": "sb_image"
+        },
+        {
+          "DisplayName": "Apartment",
+          "LogicalName": "sb_apartmentid",
+          "EntityLogicalName": "sb_image"
+        },
+        {
+          "DisplayName": "Status",
+          "LogicalName": "statecode",
+          "EntityLogicalName": "sb_image"
+        }
+      ],
+      "LogicalName": "sb_image",
+      "DisplayName": "Image",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_imageid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Client",
+          "LogicalName": "sb_contactid",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Apartment Type",
+          "LogicalName": "sb_apartmenttypeid",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Apartment",
+          "LogicalName": "sb_apartmentid",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Price",
+          "LogicalName": "sb_price",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Final Price",
+          "LogicalName": "sb_finalprice",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Is Security Deposit",
+          "LogicalName": "sb_issecuritydeposit",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Security Deposit",
+          "LogicalName": "sb_securitydeposit",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Adults",
+          "LogicalName": "sb_adults",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Childrens",
+          "LogicalName": "sb_childrens",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Date Start",
+          "LogicalName": "sb_datestart",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Date End",
+          "LogicalName": "sb_dateend",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Type",
+          "LogicalName": "sb_type",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Phone Number ",
+          "LogicalName": "sb_phonenumber",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Client Name",
+          "LogicalName": "sb_clientname",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Status",
+          "LogicalName": "statecode",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "ID",
+          "LogicalName": "sb_id",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Description",
+          "LogicalName": "sb_description",
+          "EntityLogicalName": "sb_booking"
+        },
+        {
+          "DisplayName": "Email Address",
+          "LogicalName": "emailaddress",
+          "EntityLogicalName": "sb_booking"
+        }
+      ],
+      "LogicalName": "sb_booking",
+      "DisplayName": "Booking ",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_bookingid",
+      "PrimaryNameAttribute": "sb_id"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Date Start",
+          "LogicalName": "sb_datestart",
+          "EntityLogicalName": "sb_price"
+        },
+        {
+          "DisplayName": "Price Value",
+          "LogicalName": "sb_pricevalue",
+          "EntityLogicalName": "sb_price"
+        },
+        {
+          "DisplayName": "Apartment Type",
+          "LogicalName": "sb_apartmenttypeid",
+          "EntityLogicalName": "sb_price"
+        },
+        {
+          "DisplayName": "Name",
+          "LogicalName": "sb_name",
+          "EntityLogicalName": "sb_price"
+        }
+      ],
+      "LogicalName": "sb_price",
+      "DisplayName": "Price",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_priceid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "First Name",
+          "LogicalName": "firstname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Last Name",
+          "LogicalName": "lastname",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Email",
+          "LogicalName": "emailaddress1",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Mobile Phone",
+          "LogicalName": "mobilephone",
+          "EntityLogicalName": "contact"
+        },
+        {
+          "DisplayName": "Full Name",
+          "LogicalName": "fullname",
+          "EntityLogicalName": "contact"
+        }
+      ],
+      "LogicalName": "contact",
+      "DisplayName": "Contact",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "contactid",
+      "PrimaryNameAttribute": "fullname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "User for sending letters",
+          "LogicalName": "sb_userforsendingletters",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "Mail for receiving letters",
+          "LogicalName": "sb_mailforreceivingletters",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "Close Booking From Days",
+          "LogicalName": "sb_closebookingfromdays",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "AppId",
+          "LogicalName": "sb_appid",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "Dynamics Url",
+          "LogicalName": "sb_dynamicsurl",
+          "EntityLogicalName": "sb_customsettings"
+        },
+        {
+          "DisplayName": "Booking Email Template Name",
+          "LogicalName": "sb_bookingemailtemplatename",
+          "EntityLogicalName": "sb_customsettings"
+        }
+      ],
+      "LogicalName": "sb_customsettings",
+      "DisplayName": "SB Custom Settings",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "sb_customsettingsid",
+      "PrimaryNameAttribute": "sb_name"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Title",
+          "LogicalName": "title",
+          "EntityLogicalName": "template"
+        },
+        {
+          "DisplayName": "Body",
+          "LogicalName": "body",
+          "EntityLogicalName": "template"
+        }
+      ],
+      "LogicalName": "template",
+      "DisplayName": "Email Template",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "templateid",
+      "PrimaryNameAttribute": "title"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "Party",
+          "LogicalName": "partyid",
+          "EntityLogicalName": "activityparty"
+        }
+      ],
+      "LogicalName": "activityparty",
+      "DisplayName": "Activity Party",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "activitypartyid",
+      "PrimaryNameAttribute": "partyidname"
+    },
+    {
+      "Fields": [
+        {
+          "DisplayName": "To",
+          "LogicalName": "to",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "From",
+          "LogicalName": "from",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "Direction",
+          "LogicalName": "directioncode",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "Subject",
+          "LogicalName": "subject",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "Regarding",
+          "LogicalName": "regardingobjectid",
+          "EntityLogicalName": "email"
+        },
+        {
+          "DisplayName": "Description",
+          "LogicalName": "description",
+          "EntityLogicalName": "email"
+        }
+      ],
+      "LogicalName": "email",
+      "DisplayName": "Email",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "activityid",
+      "PrimaryNameAttribute": "subject"
+    },
+    {
+      "Fields": [],
+      "LogicalName": "systemuser",
+      "DisplayName": "User",
+      "ModelFileName": null,
+      "PrimaryIdAttribute": "systemuserid",
+      "PrimaryNameAttribute": "fullname"
+    }
+  ],
+  "DefaultNamespace": "SB.Shared.Models.Dynamics"
+}

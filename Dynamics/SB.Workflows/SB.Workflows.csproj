@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <AssemblyOriginatorKeyFile>DynamicsKey.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>SB.Workflows</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+</Project>
